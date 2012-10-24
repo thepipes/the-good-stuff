@@ -1,0 +1,30 @@
+/*** Sidebar Starts ***/
+.sidebar {
+  margin-top: 20px;
+}
+.sidebar .menu {
+  text-align: right;
+  font-size:14px;
+  line-height:1.4;
+  a{
+    color:@black;
+    &:hover{
+      color:@darkblue;
+    }
+  }
+  .active a {
+    color:@darkblue;
+    font-weight: bold;
+  }
+}
+
+#content-sidebar{
+  position: relative;
+  min-height: 600px;
+  padding-top: 30px;
+  border-left: 1px solid @grey;
+  min-width:740px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*** Sidebar Ends ***/

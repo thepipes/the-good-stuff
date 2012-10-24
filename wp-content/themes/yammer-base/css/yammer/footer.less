@@ -1,0 +1,59 @@
+/* footer ------------------------------------------------------------------ */
+.global-footer {
+  background-color: #FFF;
+  color: @black;
+  margin: 30px 0 0;
+  padding: 0;
+  border-top: 1px solid @grey;
+  bottom: 0;
+  width: 100%;
+  .global-footer-border {
+    padding: 10px 0 20px 0;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+.global-footer .copy {
+  color: @black;
+  float: left;
+}
+.global-footer .menu {
+  float: right;
+  width: auto;
+  margin-right: 24px;
+}
+.global-footer .menu li {
+  float: left;
+  margin-right: 10px;
+  border-right: 1px solid @grey;
+  padding-right: 10px;
+}
+.footer-social {
+  float: right;
+}
+.footer-social li {
+  display: inline-block;
+  width: 31px;
+  height: 30px;
+  margin: 0px 5px;
+  & a {
+    width: 31px;
+    height: 30px;
+    display: inline-block;
+  }
+}
+.ie7 .footer-social li {
+  display:inline;
+}
+#facebook {
+  background: url('/wp-content/themes/yammer-base/img/sprite.png') no-repeat 0 0;    
+}
+#facebook:hover {
+  background: url('/wp-content/themes/yammer-base/img/sprite.png') no-repeat -36px 0;    
+}
+#twitter {
+  background: url('/wp-content/themes/yammer-base/img/sprite.png') no-repeat -70px 0;
+}
+#twitter:hover {
+  background: url('/wp-content/themes/yammer-base/img/sprite.png') no-repeat -107px 0;
+}

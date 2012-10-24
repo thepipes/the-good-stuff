@@ -1,0 +1,232 @@
+/******/
+/*** Content Starts ***/
+/******/
+
+/*** Homepage Starts ***/
+#wrap {
+  margin: 2.0833333% auto 43px auto; /* 20px auto 30px auto; */
+  position: relative;
+  top: 36px;
+  padding-bottom: 30px;
+}
+#content {
+  zoom: 1;
+  background-color: #efefef;
+  margin: 0 auto 3.125%; /* 0 auto 30px; */
+  min-height: 600px;
+  min-width: 960px;
+  max-width: 1600px;
+  position: relative;
+  z-index: 1;
+  padding-top: 3.125%; /* 30px; */
+  background-color: transparent;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.home-header-bg {
+  z-index: -1;
+  background: url('/wp-content/themes/releases/img/background-gradient-1900.jpg') no-repeat top;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  border-bottom: 1px solid @grey;
+}
+.centered { text-align: center; }
+.main {
+  background-color: transparent;
+}
+.yj-spinner-loading {
+  width: 100px;
+  padding-left: 20px;
+  margin: 10px auto;
+  background: url('/wp-content/themes/yammer-base/img/small-spinner.gif') no-repeat center left;
+  color:@black;
+  line-height: 14px;
+}
+
+.page-header {
+  margin-top: 30px;
+}
+.page-header-description {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.cta-link {
+  font-size: 15px;
+}
+.home-header {
+  margin-bottom: 40px;
+  min-height: 400px;
+}
+
+
+/*** Home Ends ***/
+.single-features #wrap {
+  margin-top: 0;
+}
+
+
+.container .share-button-container {
+  float:right;
+  position:relative;
+  margin-bottom:20px;
+  width: 100%;
+  margin-right: 10px;
+}
+.share-button {
+  float:right;
+  padding: 0.3125% 1.0416667% 0.3125% 0.3125%; /* 3px 10px 3px 3px; */
+  margin-left: 1.0833333%; /*  20px; */
+  font-weight: bold;
+  color: @text-color;
+  text-transform: uppercase;
+  font-size: 0.6875em; /* 11px; */
+  cursor:pointer;
+  & img {
+    vertical-align: middle;
+    max-width: 16px;
+    max-height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    margin-right: 5px;
+  }  
+  & span {
+    position: relative;
+    top: 1px;
+  }
+}
+.content h1 {
+  margin-bottom: 2.0833333%; /*  20px; */
+  color:@black;
+}
+.content .center {
+  width: 100%;
+  text-align: center;
+}
+.shortcode-container {
+  display:inline-block;
+  background-color: #F4F4F4;
+  border: 1px solid @grey;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  margin: 4.787234% 2.1276596%; /*45px 20px; */
+  width: 19.1436%; /* 180px; */
+  min-width:130px;
+  background: -moz-linear-gradient(left, #f4f4f4 0%, #FFFFFF 50%, #f4f4f4 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f4f4f4), color-stop(50%,#FFFFFF), color-stop(100%,#f4f4f4)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #f4f4f4 0%,#FFFFFF 50%,#f4f4f4 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #f4f4f4 0%,#FFFFFF 50%,#f4f4f4 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #f4f4f4 0%,#FFFFFF 50%,#f4f4f4 100%); /* IE10+ */
+  background: linear-gradient(to right, #f4f4f4 0%,#FFFFFF 50%,#f4f4f4 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#f4f4f4',GradientType=1 ); /* IE6-9 */
+  vertical-align: top;
+  
+}
+
+.shortcode-container:hover {
+  background-color: #EDEDED;
+  -webkit-box-shadow: 0px 2px 6px -2px #999;
+  -moz-box-shadow: 0px 2px 6px -2px #999;
+  -o-box-shadow: 0px 2px 6px -2px #999;
+  box-shadow: 0px 2px 6px -2px #999;
+  background: -moz-linear-gradient(left, #ededed 0%, #f4f4f4 50%, #ededed 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ededed), color-stop(50%,#f4f4f4), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #ededed 0%,#f4f4f4 50%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #ededed 0%,#f4f4f4 50%,#ededed 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #ededed 0%,#f4f4f4 50%,#ededed 100%); /* IE10+ */
+  background: linear-gradient(to right, #ededed 0%,#f4f4f4 50%,#ededed 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ededed',GradientType=1 ); /* IE6-9 */ 
+}
+
+.ie7 .shortcode-container {
+  display:inline;
+}
+.shortcode-container-content {
+  text-align: center;
+  padding: 5.5555556%; /* 10px; */
+  display: block;
+}
+.shortcode-container-title {
+  text-align: center;
+  padding: 0 10px 10px;
+  border-bottom: 1px solid @grey;
+  text-transform:uppercase;
+  display: block;
+}
+.shortcode-container-url {
+  text-align: center;
+  font-weight: bold;
+  padding: 4.4444444%; /* 8px; */
+  border-top: 1px solid #FFF;
+  background-color: #E4E4E4;
+  -webkit-border-radius:  0 0 2px 2px;
+  -moz-border-radius:  0 0 2px 2px;
+  -o-border-radius:  0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+}
+.box-shortcode {
+  background-color: #ECECEC;
+  border-top: 1px solid @grey;
+  border-bottom: 1px solid white;
+  margin: 3.1914894% auto; /* 30px 0; */
+}
+.box-shortcode-content {
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid @grey;
+  padding:1.5957447%; /* 15px; */
+}
+.box-shortcode-content img {
+  margin-right: 20px;
+  float: left;
+}
+
+.quote-container-small {
+  max-width: 268px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #CCC;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0px 5px 30px 5px;
+  display: inline-block;
+  font-size: 14px;
+  line-height:1.5;
+}
+.ie7 .quote-container-small {
+  display:inline;
+}
+.quote-container-content img {
+  margin-right: 20px;
+  float: left;
+  border: 1px solid @grey;
+}
+.bluebox-shortcode {
+  margin-top: 60px;
+  min-height: 20px;
+  color: white;
+  text-align: center;
+  background-color: #39C;
+  padding: 10px;
+}
+.bluebox-shortcode a {
+  color:#FFF;
+}
+.whitebox-shortcode {
+  border: 1px solid @grey;
+}
+.whitebox-shortcode-content {
+  padding:1.5957447%; /* 15px; */
+}
+.back-to-top {
+  cursor: pointer;
+}
+/******/
+/*** Content Ends ***/
+/******/
+
+
